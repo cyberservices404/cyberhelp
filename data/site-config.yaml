@@ -1,0 +1,393 @@
+# Site Configuration
+site:
+  title: 'CyberHelp Desk'
+  tagline: 'Your Trusted Partner Against Cyber Fraud'
+  description: 'We help individuals and organizations report, resolve, and recover from cyber fraud incidents with expert guidance and support.'
+
+# Contact Information
+contact:
+  phone: '+91 91112550490'
+  email: 'cyberservices.404@proton.me'
+  notification_email: 'cyberservices.404@proton.me' # Email for contact form submissions
+
+# Statistics
+stats:
+  success_rate: '98%'
+  cases_handled: '5000+'
+  support_availability: '24/7'
+  legal_experts: '50+'
+
+# Services
+services:
+  - title: 'Online Fraud Complaint'
+    description: 'We help you report and track online fraud complaints, from e-commerce scams to social media fraud.'
+    link: '/services#online-fraud'
+
+  - title: 'Banking Fraud Assistance'
+    description: 'Get expert guidance on reporting unauthorized transactions, phishing, and other banking-related fraud.'
+    link: '/services#banking-fraud'
+
+  - title: 'Cyber Crime Reporting'
+    description: 'We assist in proper documentation and reporting of cyber crimes to the appropriate authorities.'
+    link: '/services#cybercrime'
+
+  - title: 'Legal Consultation'
+    description: 'Connect with legal experts specializing in cyber law to understand your rights and options.'
+    link: '/services#legal'
+
+# Detailed Services for Services Page
+detailed_services:
+  - id: 'online-fraud'
+    title: 'Online Fraud Complaint Handling'
+    subtitle: 'Our comprehensive assistance for victims of online fraud includes documentation guidance, reporting to appropriate platforms, and follow-up procedures.'
+    features:
+      - 'E-commerce scam reporting and resolution'
+      - 'Social media fraud assistance'
+      - 'Phishing and identity theft reporting'
+      - 'Investigation coordination with platforms'
+      - 'Recovery process guidance'
+    how_it_works:
+      - step: 1
+        title: 'Initial Consultation'
+        description: 'We assess your case and provide initial guidance.'
+      - step: 2
+        title: 'Documentation'
+        description: 'We help gather and organize all necessary evidence.'
+      - step: 3
+        title: 'Reporting'
+        description: 'We guide you through reporting to the appropriate authorities.'
+      - step: 4
+        title: 'Follow-up & Resolution'
+        description: 'We provide continuous support until your case is resolved.'
+
+  - id: 'banking-fraud'
+    title: 'Banking Fraud Complaint Assistance'
+    subtitle: 'We help you navigate the complex process of reporting unauthorized transactions, account breaches, and other financial fraud incidents.'
+    features:
+      - 'Unauthorized transaction reporting'
+      - 'Account breach documentation'
+      - 'Coordination with banking institutions'
+      - 'RBI guidelines compliance assistance'
+      - 'Fund recovery follow-up support'
+    how_it_works:
+      - step: 1
+        title: 'Initial Consultation'
+        description: 'We assess your case and provide initial guidance.'
+      - step: 2
+        title: 'Documentation'
+        description: 'We help gather and organize all necessary evidence.'
+      - step: 3
+        title: 'Reporting'
+        description: 'We guide you through reporting to the appropriate authorities.'
+      - step: 4
+        title: 'Follow-up & Resolution'
+        description: 'We provide continuous support until your case is resolved.'
+
+  - id: 'cybercrime'
+    title: 'Cyber Crime Reporting'
+    subtitle: 'Our experts guide you through the proper channels for reporting various types of cybercrimes to law enforcement and regulatory bodies.'
+    features:
+      - 'Documentation preparation for police complaints'
+      - 'National Cyber Crime Portal submission assistance'
+      - 'Evidence collection and preservation guidance'
+      - 'Case status tracking and follow-up'
+      - 'Coordination with cybercrime investigation units'
+    how_it_works:
+      - step: 1
+        title: 'Initial Consultation'
+        description: 'We assess your case and provide initial guidance.'
+      - step: 2
+        title: 'Documentation'
+        description: 'We help gather and organize all necessary evidence.'
+      - step: 3
+        title: 'Reporting'
+        description: 'We guide you through reporting to the appropriate authorities.'
+      - step: 4
+        title: 'Follow-up & Resolution'
+        description: 'We provide continuous support until your case is resolved.'
+
+  - id: 'legal'
+    title: 'Legal Consultation Coordination'
+    subtitle: 'Connect with experienced cyber law specialists who can provide expert advice tailored to your specific situation.'
+    features:
+      - 'Access to network of cyber law experts'
+      - 'Legal rights and options assessment'
+      - 'Case strength evaluation'
+      - 'Documentation review for legal proceedings'
+      - 'Representation coordination for court cases'
+    how_it_works:
+      - step: 1
+        title: 'Initial Consultation'
+        description: 'We assess your case and provide initial guidance.'
+      - step: 2
+        title: 'Documentation'
+        description: 'We help gather and organize all necessary evidence.'
+      - step: 3
+        title: 'Reporting'
+        description: 'We guide you through reporting to the appropriate authorities.'
+      - step: 4
+        title: 'Follow-up & Resolution'
+        description: 'We provide continuous support until your case is resolved.'
+
+# FAQ Section
+faq:
+  - question: 'How soon should I report a cyber fraud incident?'
+    answer: 'You should report cyber fraud incidents as soon as possible, ideally within 24-48 hours of discovery. Quick reporting increases the chances of successful investigation and recovery.'
+
+  - question: 'What information do I need to provide when reporting a fraud?'
+    answer: "You'll need to provide details about the incident, any communication records, transaction details, screenshots, and any other relevant documentation that can help establish the fraudulent activity."
+
+  - question: "Is there a fee for using CyberHelp Desk's services?"
+    answer: 'Our initial consultation and basic guidance services are provided free of charge. Additional specialized services may have associated fees, which will be clearly communicated upfront.'
+
+  - question: 'Can you guarantee recovery of my lost funds?'
+    answer: 'While we cannot guarantee fund recovery, our expertise significantly improves your chances. We work diligently to guide you through all available recovery channels and legal options.'
+
+  - question: 'Do I need to visit your office in person?'
+    answer: 'Most of our services can be provided remotely through secure digital channels. In-person meetings can be arranged when necessary for complex cases.'
+
+# About Us Content
+about:
+  mission:
+    title: 'Our Mission'
+    description: 'At CyberHelp Desk, our mission is to provide accessible support and guidance to individuals and organizations affected by cyber fraud, bridging the gap between victims and legal authorities.'
+    vision: 'We believe that every person deserves expert assistance in navigating the complex process of reporting and resolving cyber incidents, regardless of their technical expertise.'
+    goal: 'Through education, advocacy, and direct support, we aim to create a safer digital environment for all Indian citizens and contribute to the fight against cybercrime.'
+
+  values:
+    - title: 'Integrity'
+      description: 'We maintain the highest ethical standards in all our operations and client interactions.'
+    - title: 'Compassion'
+      description: 'We approach each case with empathy, understanding the distress cyber fraud causes.'
+    - title: 'Excellence'
+      description: 'We strive for the highest quality in our services and continuous improvement.'
+    - title: 'Accessibility'
+      description: 'We make our services understandable and available to people of all technical backgrounds.'
+
+  team:
+    - name: 'Anand Sharma'
+      role: 'Founder & CEO'
+      avatar: 'A'
+      bio: 'Former cybersecurity expert with 15+ years of experience in handling digital fraud cases and cyber law.'
+    - name: 'Dr. Meera Patel'
+      role: 'Legal Director'
+      avatar: 'D'
+      bio: 'Seasoned legal professional specializing in cyber law with experience in handling complex cyber fraud cases.'
+    - name: 'Vikram Singh'
+      role: 'Technical Director'
+      avatar: 'V'
+      bio: 'Cybersecurity specialist with expertise in digital forensics and cyber threat intelligence.'
+    - name: 'Neha Gupta'
+      role: 'Client Relations Manager'
+      avatar: 'N'
+      bio: 'Dedicated professional focused on ensuring seamless communication and support for all clients.'
+
+  partnerships:
+    - title: 'National Cybercrime Coordination Center'
+      description: 'Official collaboration for streamlined reporting of cyber incidents.'
+    - title: 'Indian Cyber Law Association'
+      description: 'Partnership for legal expertise and advocacy in cyber law matters.'
+    - title: 'Digital Security Alliance of India'
+      description: 'Cooperation for awareness and education on digital safety.'
+    - title: 'Banking Security Forum'
+      description: 'Collaboration on financial fraud prevention and resolution.'
+
+  client_testimonials:
+    - name: 'Amit Desai'
+      role: 'Business Owner'
+      avatar: 'A'
+      quote: 'After our company email was compromised leading to a significant financial loss, CyberHelp Desk provided invaluable guidance that helped us recover most of the funds and strengthen our security measures.'
+    - name: 'Sunita Agarwal'
+      role: 'Retired Teacher'
+      avatar: 'S'
+      quote: 'When I fell victim to an online shopping scam, I was lost until I found CyberHelp Desk. Their patient and compassionate team guided me through every step of the reporting process.'
+    - name: 'Karan Shah'
+      role: 'IT Professional'
+      avatar: 'K'
+      quote: "Despite being tech-savvy, I became a victim of sophisticated identity theft. CyberHelp Desk's expertise in navigating the legal aspects of my case was crucial to resolving the situation quickly."
+
+# How We Help Steps
+how_we_help:
+  - step: 1
+    title: 'Report the Incident'
+    description: 'Fill out our secure complaint form with details about the cyber fraud incident you experienced.'
+
+  - step: 2
+    title: 'Get Expert Guidance'
+    description: 'Our team reviews your case and provides personalized guidance on next steps and documentation needed.'
+
+  - step: 3
+    title: 'Resolution Support'
+    description: 'We assist in filing reports with appropriate authorities and provide support throughout the resolution process.'
+
+# Testimonials
+testimonials:
+  - name: 'Priya Sharma'
+    role: 'Recovering Fraud Victim'
+    avatar: 'P'
+    quote: 'CyberHelp Desk was instrumental in helping me report and recover from an online banking fraud. Their team guided me through every step of the process with professionalism and compassion.'
+
+  - name: 'Rajesh Kumar'
+    role: 'Small Business Owner'
+    avatar: 'R'
+    quote: 'After my business email was compromised, I was lost until I found CyberHelp Desk. They helped me navigate the reporting process and implement better security measures to prevent future incidents.'
+
+  - name: 'Anita Desai'
+    role: 'Senior Citizen'
+    avatar: 'A'
+    quote: "As someone who isn't tech-savvy, I was devastated after falling victim to an online scam. The team at CyberHelp not only helped me report the fraud but also educated me on staying safe online."
+
+# Resources
+resources:
+  - title: 'Latest Cyber Threats'
+    description: 'Stay updated on emerging cyber threats and scams targeting Indian citizens and businesses.'
+    link: '/resources'
+
+  - title: 'Safety Guidelines'
+    description: 'Practical tips and best practices to protect yourself and your data from cyber criminals.'
+    link: '/resources'
+
+  - title: 'Official Reporting Channels'
+    description: 'Information on government portals and official channels for reporting cybercrime in India.'
+    link: '/resources'
+
+# Resources Page Content
+resources_page:
+  hero:
+    title: 'Cybersecurity Resources'
+    subtitle: 'Educational materials, official reporting channels, and updates on current threats to help you stay safe online.'
+
+  educational_materials:
+    title: 'Educational Materials'
+    subtitle: 'Enhance your understanding of cyber security with our collection of guides and resources designed to help you navigate the digital world safely.'
+    resources:
+      - title: 'Understanding Phishing Attacks'
+        description: 'Learn how to identify and protect yourself from phishing attempts.'
+        link: '/resources/phishing-awareness'
+      - title: 'Secure Online Banking Practices'
+        description: 'Essential tips for keeping your financial transactions and accounts safe.'
+        link: '/resources/banking-security'
+      - title: 'Identity Theft Prevention Guide'
+        description: 'Comprehensive guide on protecting your identity in the digital age.'
+        link: '/resources/identity-protection'
+      - title: 'Social Media Safety Tips'
+        description: 'Best practices for maintaining privacy and security on social platforms.'
+        link: '/resources/social-media-safety'
+
+  cyber_threats:
+    title: 'Recent Cyber Threats'
+    subtitle: 'Stay informed about the latest cyber threats and scams targeting Indian citizens and organizations.'
+    alerts:
+      - title: 'QR Code Payment Frauds'
+        date: 'May 2, 2025'
+        description: 'Scammers are using fake QR codes to steal money from unsuspecting users. Always verify payment recipients carefully.'
+        type: 'Alert'
+        link: '/resources/qr-code-fraud'
+      - title: 'COVID-19 Relief Scam Emails'
+        date: 'April 28, 2025'
+        description: 'Phishing emails claiming to offer government relief funds are targeting citizens. Official communications never ask for your bank details via email.'
+        type: 'Alert'
+        link: '/resources/covid-scam'
+      - title: 'Remote Work Security Vulnerabilities'
+        date: 'April 15, 2025'
+        description: 'With continued remote working, hackers are targeting insecure home networks and remote access points. Ensure proper VPN and security protocols.'
+        type: 'Alert'
+        link: '/resources/remote-work-security'
+
+  reporting_channels:
+    title: 'Official Reporting Channels'
+    subtitle: 'Links to government-approved platforms for reporting various types of cybercrimes and fraud incidents.'
+    channels:
+      - title: 'National Cyber Crime Reporting Portal'
+        description: 'Official government portal for reporting cyber crimes anywhere in India.'
+        url: 'https://cybercrime.gov.in/'
+      - title: 'RBI Complaint Management System'
+        description: "Reserve Bank of India's platform for banking-related complaints."
+        url: 'https://cms.rbi.org.in/'
+      - title: 'Indian Cyber Crime Coordination Centre (I4C)'
+        description: 'Framework for coordination among law enforcement agencies dealing with cybercrime.'
+        url: 'https://www.mha.gov.in/division_of_mha/cyber-and-information-security-cis-division'
+      - title: 'CERT-In (Indian Computer Emergency Response Team)'
+        description: 'Handles cyber security incidents and provides related services.'
+        url: 'https://www.cert-in.org.in/'
+
+  security_tips:
+    title: 'Essential Cybersecurity Tips'
+    subtitle: 'Follow these important guidelines to enhance your online security and protect yourself from cyber threats.'
+    categories:
+      - title: 'Password Security'
+        tips:
+          - 'Use strong, unique passwords for different accounts.'
+          - 'Enable two-factor authentication whenever possible.'
+          - 'Consider using a reputable password manager.'
+      - title: 'Email Safety'
+        tips:
+          - 'Be cautious of unexpected emails with attachments or links.'
+          - 'Verify sender identities before responding to requests for information.'
+          - 'Never share sensitive information via email.'
+      - title: 'Financial Transactions'
+        tips:
+          - 'Always use secure and trusted payment methods.'
+          - 'Verify website security before entering financial details.'
+          - 'Regularly monitor your accounts for unauthorized transactions.'
+      - title: 'Device Security'
+        tips:
+          - 'Keep your devices updated with the latest security patches.'
+          - 'Use anti-virus and anti-malware protection.'
+          - 'Enable device encryption and lock screen protection.'
+
+  cta:
+    title: 'Need Personalized Assistance?'
+    subtitle: "If you've been affected by a cyber incident, our experts are ready to guide you through the recovery process."
+    buttons:
+      - text: 'Report an Incident'
+        link: '/report'
+        variant: 'primary'
+      - text: 'Contact Our Team'
+        link: '/contact'
+        variant: 'secondary'
+
+# Navigation
+navigation:
+  - name: 'Home'
+    href: '/'
+  - name: 'Our Services'
+    href: '/services'
+  - name: 'About Us'
+    href: '/about'
+  - name: 'Resources'
+    href: '/resources'
+  - name: 'Contact Us'
+    href: '/contact'
+
+# Footer Links
+footer:
+  quick_links:
+    - name: 'Home'
+      href: '/'
+    - name: 'Our Services'
+      href: '/services'
+    - name: 'About Us'
+      href: '/about'
+    - name: 'Resources'
+      href: '/resources'
+    - name: 'Contact Us'
+      href: '/contact'
+
+  service_links:
+    - name: 'Online Fraud Complaint'
+      href: '/services#online-fraud'
+    - name: 'Banking Fraud Assistance'
+      href: '/services#banking-fraud'
+    - name: 'Cyber Crime Reporting'
+      href: '/services#cybercrime'
+    - name: 'Legal Consultation'
+      href: '/services#legal'
+
+  legal_links:
+    - name: 'Privacy Policy'
+      href: '/privacy-policy'
+    - name: 'Terms of Service'
+      href: '/terms-of-service'
+    - name: 'Sitemap'
+      href: '/sitemap'
