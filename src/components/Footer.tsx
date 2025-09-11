@@ -58,7 +58,6 @@ export default function Footer({ config }: FooterProps) {
             <h4 className="font-semibold mb-4">Contact Us</h4>
             <div className="space-y-2">
               <p className="text-gray-400">{config.contact.phone}</p>
-              <p className="text-gray-400">{config.contact.email}</p>
             </div>
           </div>
         </div>
