@@ -1,7 +1,7 @@
 import { getSiteConfig } from '@/lib/config';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
-import ContactForm from '@/components/ReportForm';
+import ReportForm from '@/components/ReportForm';
 
 export default function ReportPage() {
   const config = getSiteConfig();
@@ -23,8 +23,8 @@ export default function ReportPage() {
         </div>
       </section>
 
-      { /* Report Form */ }
-      <ContactForm/>
+      { /* Report Form */}
+      <ReportForm />
 
       <Footer config={config} />
     </>

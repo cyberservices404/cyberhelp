@@ -171,6 +171,7 @@ export interface ReportFormFormData {
 export interface ReportFormRequestBodyDocument {
   filename: string,
   content: string,
+  contentType?: string,
 }
 
 export interface ReportFormRequestBody {
@@ -183,3 +184,22 @@ export interface ReportFormRequestBody {
   description: string;
   documents: ReportFormRequestBodyDocument[] | null;
 }
+
+/**
+ * ===============================================
+ *                  MAIL CONFIG
+ * ===============================================
+ */
+
+export interface MailConfig {
+  to: string,
+  from: string,
+  subject: string,
+  attachments?: MailAttachment[],
+};
+
+export interface MailAttachment {
+  filename: string,
+  content: Buffer,
+  contentType?: string,
+};

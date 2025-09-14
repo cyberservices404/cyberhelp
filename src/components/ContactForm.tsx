@@ -348,8 +348,8 @@ export default function ContactForm() {
             {/* Submit Message */}
             {submitMessage && (
               <div className={`mt-6 p-4 rounded-md text-center ${submitMessage.includes('successfully') || submitMessage.includes('sent')
-                  ? 'bg-green-50 text-green-700'
-                  : 'bg-red-50 text-red-700'
+                ? 'bg-green-50 text-green-700'
+                : 'bg-red-50 text-red-700'
                 }`}>
                 {submitMessage}
               </div>

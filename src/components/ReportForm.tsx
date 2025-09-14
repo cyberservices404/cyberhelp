@@ -523,8 +523,8 @@ export default function ReportForm() {
                 onClick={prevStep}
                 disabled={currentStep === 0}
                 className={`w-full sm:w-auto px-4 sm:px-6 py-2 sm:py-3 rounded-md text-sm sm:text-base transition-colors ${currentStep === 0
-                    ? 'bg-gray-300 text-gray-500 cursor-not-allowed'
-                    : 'bg-gray-600 text-white hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-gray-500 focus:ring-offset-2'
+                  ? 'bg-gray-300 text-gray-500 cursor-not-allowed'
+                  : 'bg-gray-600 text-white hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-gray-500 focus:ring-offset-2'
                   }`}
               >
                 Previous
@@ -564,8 +564,8 @@ export default function ReportForm() {
             {submitMessage && (
               <div
                 className={`mt-4 p-3 sm:p-4 rounded-md text-center text-sm sm:text-base ${submitMessage.includes('successfully')
-                    ? 'bg-green-100 text-green-700 border border-green-200'
-                    : 'bg-red-100 text-red-700 border border-red-200'
+                  ? 'bg-green-100 text-green-700 border border-green-200'
+                  : 'bg-red-100 text-red-700 border border-red-200'
                   }`}
                 role="alert"
               >
